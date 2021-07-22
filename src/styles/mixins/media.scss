@@ -1,0 +1,10 @@
+@import "../utils/variables";
+
+@mixin media-mobile {
+
+    @media (max-width: $mediaWidthMobile) {
+        @content;
+    }
+}
+
+
